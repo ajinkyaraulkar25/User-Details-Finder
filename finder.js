@@ -50,6 +50,7 @@
 
         // getting User details
         userDetails: function(selector) {
+            // jQuery Check
             if (!$) {
                 throw 'jQuery not loaded';
             }
