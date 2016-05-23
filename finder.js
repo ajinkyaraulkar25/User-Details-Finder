@@ -49,7 +49,7 @@
         },
 
         // getting User details
-        userDetails: function(selector, formal) {
+        userDetails: function(selector) {
             if (!$) {
                 throw 'jQuery not loaded';
             }
